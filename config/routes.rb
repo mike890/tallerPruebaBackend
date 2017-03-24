@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   get 'pages/x'
+  post 'pages/save_user'
 
   root 'pages#x'
 

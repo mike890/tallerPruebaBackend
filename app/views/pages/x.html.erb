@@ -1,1 +1,9 @@
 <h1>Taller de Practica</h1>
+
+<form action="<%= pages_save_user_path%>" method="post">
+  <input name="name" value="">
+  <input name="email" value="">
+  <input name="age" value="">
+  <input type="submit" name="enviar" value="enviar">
+</form>
+<%= flash[:notice]%>
